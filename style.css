@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: black;
+    padding: 20px;
+}
+
+#frame{
+    margin: auto;
+    height: auto;
+    width: 100%;
+    padding: 5px;
+}
+.btn{
+    height: 250px;
+}
+/* .btn:hover{
+    box-shadow: 4px 4px 4px white;
+    transform: rotate3d(6deg);
+} */
+@media only screen and (max-width:619px) {
+    body{
+        padding-top: 80px;
+    }
+    
+}
+@keyframes glowing {
+    0% {
+      background-color: #ba0909;
+      box-shadow: 0 0 3px  #ba0909;
+    }
+    50% {
+      background-color: #cf0f0f;
+      box-shadow: 0 0 10px #d7d7df;
+    }
+    100% {
+      background-color: #9b0606;
+      box-shadow: 0 0 3px #a30505;
+    }
+  }
+  #btn1 {
+    animation: glowing 2100ms infinite;
+  }
+
+  @keyframes glowing1 {
+    0% {
+      background-color: #06a40e;
+      box-shadow: 0 0 3px  #06a40e;
+    }
+    50% {
+      background-color: #06a40e;
+      box-shadow: 0 0 10px #d7d7df;
+    }
+    100% {
+      background-color: #06a40e;
+      box-shadow: 0 0 3px #06a40e;
+    }
+  }
+  #btn2 {
+    animation: glowing1 2100ms infinite;
+  }
+
+  @keyframes glowing2 {
+    0% {
+      background-color: #060ba4;
+      box-shadow: 0 0 3px  #060ba4;
+    }
+    50% {
+      background-color: #060ba4;
+      box-shadow: 0 0 10px #d7d7df;
+    }
+    100% {
+      background-color: #060ba4;
+      box-shadow: 0 0 3px #060ba4;
+    }
+  }
+  #btn3 {
+    animation: glowing1 2100ms infinite;
+  }
+
+  @keyframes glowing2 {
+    0% {
+      background-color: #060ba4;
+      box-shadow: 0 0 3px  #060ba4;
+    }
+    50% {
+      background-color: #060ba4;
+      box-shadow: 0 0 10px #d7d7df;
+    }
+    100% {
+      background-color: #060ba4;
+      box-shadow: 0 0 3px #060ba4;
+    }
+  }
+  #btn3 {
+    animation: glowing2 2100ms infinite;
+  }
+
+  @keyframes glowing3 {
+    0% {
+      background-color: #cfc807;
+      box-shadow: 0 0 3px  #cfc807;
+    }
+    50% {
+      background-color: #cfc807;
+      box-shadow: 0 0 10px #d7d7df;
+    }
+    100% {
+      background-color: #cfc807;
+      box-shadow: 0 0 3px #cfc807;
+    }
+  }
+  #btn4 {
+    animation: glowing3 2100ms infinite;
+  }
